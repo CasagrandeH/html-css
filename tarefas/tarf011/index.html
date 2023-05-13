@@ -5,9 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./../../imgs/favicon/Casa/Casa02.ico" type="image/x-icon">
-    <title>Document</title>
+    <title>Midias em HTML5</title>
 </head>
 <body>
-    
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o zoom do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="ibagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="ibagens/foto-m.png" type="image/png">
+        <img src="ibagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
 </body>
 </html>
