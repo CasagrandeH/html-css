@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../imgs/favicon/Casa/Casa02.ico" type="image/x-icon">
+    <title>Exemplo de Hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: red;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            background-color: grey;
+            color: brown;
+            width: fit-content;
+        }
+
+        div:hover {
+            transition: .5s;
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover:</h1>
+    <p>Passe o mouse sobre o texto abaixo VVV</p>
+    <div id="d1">
+        Passe o mouse aqui
+        <p>Texto excondiduam.....</p>
+    </div>
+    <p>Fim.</p>
+</body>
+</html>
