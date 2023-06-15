@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../imgs/favicon/Casa/Casa02.ico" type="image/x-icon">
+    <title>Grouping tags</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            color: black;
+            box-sizing: border-box;
+            
+        }
+        body {
+            background-color: lightblue;
+        }
+        header {
+            background-color: darkslategray;
+        }
+
+        header > nav {
+            margin: 0px auto;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+        }
+        nav > div {
+            display: inline-block;
+            justify-content: left;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav > ul {
+            text-align: center;
+            padding-right: 30px;
+            list-style-type: none;
+            font-weight: bold;
+        }
+        ul > li {
+            display: inline-block;
+        }
+        ul > li > a {
+            color: white;
+            line-height: 50px;
+            width: 100px;
+            display: block;
+            padding: 5px 2px;
+            font-size: 15px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        ul > li > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 10px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        main > h1 {
+            text-align: center;
+            padding: 10px;
+        }
+        main > section > article {
+            padding: 10px;
+            background-color: rgb(197, 195, 195);
+        }
+        section > h2 {
+            font-weight: 100;
+            margin: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 5px;
+            background-color: black;
+        }
+        footer > p {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <span><img src="../../imgs/favicon/Casa/Casa02.ico" alt="logo"></span>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Config</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Titulo principal</h1>
+        <section id="assuntos">
+            <h2>Assuntos</h2>
+            <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore cupiditate incidunt aliquam perspiciatis provident nobis repellat nemo esse asperiores officia, velit, dolorem maxime recusandae ad ipsam pariatur rerum. Libero, maxime!</article>
+        </section>
+        <section id="esportes">
+            <h2>Esportes</h2>
+            <article>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae aliquam ex earum architecto perspiciatis, tempora assumenda placeat reiciendis ipsum a! Quo deleniti molestiae explicabo maiores necessitatibus recusandae fugit cupiditate nisi?</article>
+        </section>
+    </main>
+    <footer>
+        <p>Developed by Myself</p>
+    </footer>
+
+</body>
+</html>
