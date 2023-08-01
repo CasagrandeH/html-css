@@ -52,31 +52,44 @@ header p > a {
 
 main section > p {
     margin: 15px 0px;
-    padding: 30px;
-    text-align: left;
+    line-height: 2em;
+    padding-left: 30px;
+    text-align: justify;
     font-family: var(--fonte-cursiva);
     font-size: 3.5vw;
     font-weight: 500;
     max-width: 600px;
-    min-width: 300px;
+    min-width: 320px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.475);
 }
 
-main section.special {
-    color: white;
-    background-color: grey;
-
+section.special {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.54);
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 main section.special > p {
     display: inline-block;
+    color: white;
     padding: 10px 10px 10px 0;
     margin-left: 30px;
-    background-color: rgba(0, 0, 0, 0.273);
+    background-color: rgba(0, 0, 0, 0.496);
+    
+}
+
+section#flower {
+    background-image: url('imagens/background001.jpg');
+}
+
+section#letter {
+    background-image: url('imagens/background002.jpg');
 }
 
 section {
-    padding: 10vh 0;
-    line-height: 5em;
+    padding: 2vh 0;
 }
 
 footer {
