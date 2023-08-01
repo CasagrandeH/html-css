@@ -226,3 +226,9 @@ footer a:hover {
     color: var(--cor2);
     text-decoration: underline;
 }
+
+@media (max-width: 728px) {
+    nav.mobile {
+        display: flex;
+    }
+}
