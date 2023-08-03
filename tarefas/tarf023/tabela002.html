@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 2</title>
+    <link rel="stylesheet" href="estilo/stylefor002.css">
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!-- Anatomia de Tabelas Grandes
+    TABLE
+        CAPTION
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH
+    -->
+    <table>
+        <caption>População de Três Estados</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</td>
+                <th scope="col" style="width: 50px;">População</td>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">44 169 350</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20 777 672</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16 497 395</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de População</td>
+                <td class="num"><strong>81 444 417</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <div id="paragraph">
+        
+    </div>
+    <script src="scripts/scriptfor002.js"></script>
+</body>
+</html>

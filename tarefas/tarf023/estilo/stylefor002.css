@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body > h1 {
+    text-align: center;
+    padding: 2vh;
+}
+
+table {
+    width: 500px;
+    margin: auto;
+    border-collapse: collapse;
+    position: relative;
+}
+
+caption {
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+/* CABEÇALHO FIXO para tabelas nao ficarem confusas quando sao grandes demais!*/
+thead > tr > th {
+    position: sticky;
+    top: 0;
+    background-color: grey;
+}
+
+thead, tfoot {
+    background-color: grey;
+    color: white;
+}
+
+thead {
+    font-weight: bold;
+}
+
+/*EFEITO DE ZEBRA PRA TABELA FICAR MAIS LEGIVEL*/
+tbody > tr:nth-child(even) /* ALTERNATIVA = 2n */{
+    background-color: lightgray;
+}
+/* ^^^^^^^^ */
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.num {
+    text-align: right;
+}
+
+#paragraph {
+    visibility: hidden;
+}
