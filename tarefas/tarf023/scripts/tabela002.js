@@ -6,7 +6,7 @@ CABEÇALHO FIXO AKA STICKY HEADER
 
 */
 
-let par = document.querySelector('#paragraph')
+let par = document.querySelector('#spam')
 let tbody = document.querySelector('#tbody')
 
 let table = '<tr><td>São Paulo</td><td class="num">44 169 350</td></tr><tr><td>Minas Gerais</td><td class="num">20 777 672</td></tr><tr><td>Rio de Janeiro</td><td class="num">16 497 395</td></tr>'
